@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>
+var Computer = new Array();
+
+var n = prompt("Nhập số thiết bị:", 3);
+
+for (var i = 0; i < n; i++) {
+    Computer[i] = prompt("Nhập tên thiết bị:");
+}
+
+document.write("<h2>Danh sách thiết bị</h2>");
+document.write("<table border='1'>");
+document.write("<tr><th>STT</th><th>Computer</th></tr>");
+
+for (var i = 0; i < n; i++) {
+    document.write("<tr><td>" + (i+1) + "</td><td>" + Computer[i] + "</td></tr>");
+}
+
+document.write("</table>");
+</script>
+</body>
+</html>

@@ -2,8 +2,8 @@
  function myfunction(txt) {
     alert(txt); }
 
-
-var arr = [1, 2, 3, 4, 5];
+/* 
+var arr = [1, 2, 3, 4, 5]; */
 /* document.write("cac phan tu trong mang: <br>");
  for (var i = 0; i < arr.length; i++) {
     document.write(arr[i] + "<br>");}  
@@ -28,6 +28,11 @@ var arr = [1, 2, 3, 4, 5];
     /* document.write("cac phan tu trong mang: <br>");
     document.write(arr.join()+'<br>'); */
     //
+    // chuoi
+    <srcipt>
+      var stringname = new String( "Hello, world!";)
+      document.write(stringname);
+    </srcipt>
 
 
 
